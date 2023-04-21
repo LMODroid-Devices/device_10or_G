@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, device/10or/G/device.mk)
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -22,7 +22,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_BRAND := 10.or
 PRODUCT_DEVICE := G
 PRODUCT_MANUFACTURER := 10.or
-PRODUCT_NAME := lineage_G
+PRODUCT_NAME := lmodroid_G
 PRODUCT_MODEL := 10.or G
 
 PRODUCT_GMS_CLIENTID_BASE := android-huaqin

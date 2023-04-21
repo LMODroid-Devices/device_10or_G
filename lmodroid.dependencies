@@ -1,5 +1,6 @@
 [
   {
+    "remote": "lineage",
     "repository": "android_kernel_10or_G",
     "target_path": "kernel/10or/G"
   }
